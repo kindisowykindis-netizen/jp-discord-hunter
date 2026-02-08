@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: jp-discord-hunter
+    runtime: python
+    startCommand: python bot.py
